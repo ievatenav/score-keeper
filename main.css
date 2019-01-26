@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #232323;
+    color: white;
+}
+
+#title {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 200%;
+}
+
+#mainHeading {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 300%;
+}
+
+#scoreContainer {
+    margin: 0 auto;
+    max-width: 250px;
+    background: rgb(70, 3, 70);
+    height: 50px;
+    line-height: 50px;
+    font-size: 120%;
+    overflow: hidden;
+}
+
+#scoreChoice {
+    float: left;
+    text-indent: 15px;
+}
+
+
+input {
+    padding: 0;
+    text-indent: 8px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 100%;
+    width: 100px;
+    height: 100%;
+    outline: none;
+    border: none;
+    float: right;
+    background: rgb(82, 4, 82);
+    color: inherit;
+}
+
+input:hover {
+    background: rgb(99, 5, 99);
+}
+
+input:focus {
+    background: rgb(99, 5, 99);
+}
+
+#resetContainer {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 80px;
+    background: rgb(70, 3, 70);
+    height: 30px;
+    line-height: 30px;
+    font-size: 120%;
+    text-align: center;
+}
+
+#reset {
+    width: 100%;
+}
+
+#reset:hover {
+    background: rgb(92, 4, 92);
+}
+
+button {
+    border: none;
+    height: 100%;
+    outline: none;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 100%;
+    color: inherit;
+    background: none;
+}
+
+#playerContainer {
+    margin: 0 auto;
+    margin-top: 20px;
+    background: purple;
+    max-width: 250px;
+    height: 30px;
+}
+
+#p1 {
+    width: 50%;
+    margin: 0;
+    background: rgb(17, 61, 63);
+    float: left;
+}
+
+#p1:hover {
+    background: rgb(21, 74, 77);
+}
+
+#p2 {
+    width: 50%;
+    margin: 0;
+    background: rgb(34, 22, 85);
+    float: left;
+}
+
+#p2:hover {
+    background: rgb(41, 27, 105);
+}
+
+.winning {
+    color: rgb(63, 170, 102);
+}
+
