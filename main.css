@@ -23,7 +23,7 @@ body {
 
 #scoreContainer {
     margin: 0 auto;
-    max-width: 250px;
+    max-width: 280px;
     background: rgb(70, 3, 70);
     height: 50px;
     line-height: 50px;
@@ -95,7 +95,7 @@ button {
     margin: 0 auto;
     margin-top: 20px;
     background: purple;
-    max-width: 250px;
+    max-width: 280px;
     height: 30px;
 }
 
